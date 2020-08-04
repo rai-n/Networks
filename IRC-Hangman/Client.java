@@ -44,8 +44,6 @@ public class Client {
         System.out.print("Enter general channel E.g. help *(without #): ");
         String channelInitial = "#" + in.nextLine();
 
-        //Default server connection to City's IRC for quick testing during development
-        //Could use 127.0.0.1:7777 or selsey.nsqdc.city.ac.uk:6667
         //String hostName = "127.0.0.1";
         //int portNumber = 7777;
 
